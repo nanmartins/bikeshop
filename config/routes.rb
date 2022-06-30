@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
-
   root to: 'pages#home'
+
+  get 'carts/:id' => "carts#show", as: "cart"
+  delete 'carts/:id' => "carts#destroy"
 
   resources :orders
   resources :products
