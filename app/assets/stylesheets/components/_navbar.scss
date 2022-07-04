@@ -1,6 +1,14 @@
 .navbar {
   justify-content: space-between;
-  background: green;
+  background: black;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.nav-link {
+  color: white;
 }
 
 .navbar .navbar-collapse {
