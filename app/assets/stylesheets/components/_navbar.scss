@@ -5,10 +5,26 @@
 
 .navbar-brand {
   color: white;
+  font-family: 'Rubik Moonrocks', cursive;
+
+}
+
+.navbar-brand-effect {
+  color: #FFD369;
 }
 
 .navbar-brand:hover {
   color: #eeeeee;
+}
+
+.navbar-toggler {
+  border: none;
+  color: white;
+}
+
+.navbar-toggler-icon {
+  border: none;
+  color: white;
 }
 
 .nav-link {
