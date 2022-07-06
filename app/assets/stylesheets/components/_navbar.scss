@@ -1,10 +1,14 @@
 .navbar {
   justify-content: space-between;
-  background: black;
+  background: #222831;
 }
 
 .navbar-brand {
   color: white;
+}
+
+.navbar-brand:hover {
+  color: #eeeeee;
 }
 
 .nav-link {
@@ -16,5 +20,19 @@
 }
 
 .avatar {
-  width: 40px;
+  width: 32px;
+}
+
+.dropdown-menu {
+  border-style: none;
+  background-color: #FFD369;
+  padding: 20px, 20px, 20px, 10px;
+}
+
+.dropdown-item {
+  font-size: 18px;
+}
+
+.dropdown-item:hover {
+  background-color: #ffcc56;
 }
