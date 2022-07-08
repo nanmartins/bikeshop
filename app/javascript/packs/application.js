@@ -8,6 +8,8 @@ import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 import "bootstrap"
+
+import * as mdb from 'mdb-ui-kit';
 import { Carousel } from 'mdb-ui-kit';
 
 // require("@fortawesome/fontawesome-free")
