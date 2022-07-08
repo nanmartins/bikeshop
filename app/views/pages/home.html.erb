@@ -1,28 +1,11 @@
 
 <!-- Carousel wrapper -->
-<div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+<div id="carouselBasic" class="carousel slide carousel-fade" data-mdb-ride="carousel">
   <!-- Indicators -->
   <div class="carousel-indicators">
-    <button
-      type="button"
-      data-mdb-target="#carouselBasicExample"
-      data-mdb-slide-to="0"
-      class="active"
-      aria-current="true"
-      aria-label="Slide 1"
-    ></button>
-    <button
-      type="button"
-      data-mdb-target="#carouselBasicExample"
-      data-mdb-slide-to="1"
-      aria-label="Slide 2"
-    ></button>
-    <button
-      type="button"
-      data-mdb-target="#carouselBasicExample"
-      data-mdb-slide-to="2"
-      aria-label="Slide 3"
-    ></button>
+    <button type="button" data-mdb-target="#carouselBasic" data-mdb-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-mdb-target="#carouselBasic" data-mdb-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-mdb-target="#carouselBasic" data-mdb-slide-to="2" aria-label="Slide 3"></button>
   </div>
 
   <!-- Inner -->
@@ -57,11 +40,11 @@
   <!-- Inner -->
 
   <!-- Controls -->
-  <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
+  <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasic" data-mdb-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
+  <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasic" data-mdb-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
@@ -82,3 +65,6 @@
 <h2>Products</h2>
 <%= link_to 'See all', products_path %>
 <%= link_to 'Cart', cart_path(@current_cart) %>
+
+<h2>Sell your bike</h2>
+<%= link_to 'Sell a bike', new_product_path %>
