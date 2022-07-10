@@ -35,9 +35,6 @@
   flex-grow: 0;
 }
 
-.avatar {
-  width: 32px;
-}
 
 .dropdown-menu {
   border-style: none;
@@ -51,4 +48,11 @@
 
 .dropdown-item:hover {
   background-color: #ffcc56;
+}
+
+// avatar
+
+.avatar {
+  width: 24px;
+  color: #FFD369;
 }
