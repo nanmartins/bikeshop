@@ -29,8 +29,6 @@
           <li class="nav-item dropdown">
              <%= image_tag "user-icon.svg", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { bs_toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
             <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-              <%= link_to "Products", "/products", class: "dropdown-item" %>
-              <%= link_to "Sell your bike", "/products/new", class: "dropdown-item" %>
               <%= link_to "Edit account", "/users/edit", class: "dropdown-item" %>
               <%= link_to "Log out", destroy_user_session_path, method: :delete, class: "dropdown-item" %>
             </div>
@@ -47,11 +45,15 @@
           <li class="nav-item">
             <%= link_to "Sell your bike", "/products/new", class: "nav-link" %>
           </li>
-          <li class="nav-item">
-            <%= link_to "Login", new_user_session_path, class: "nav-link" %>
+
+
+
+          <li class="nav-item dropdown">
+             <%= image_tag "user-icon.svg", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { bs_toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
+            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+              <%= link_to "Login", new_user_session_path, class: "dropdown-item" %>
+            </div>
           </li>
-
-
 
           <%# <li class="nav-item dropdown">
              <%= image_tag "ui.png", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { bs_toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
