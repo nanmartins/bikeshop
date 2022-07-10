@@ -53,6 +53,10 @@
 // avatar
 
 .avatar {
-  width: 24px;
+  position: relative;
+  top: 6px;
+  margin: 0 10px 0 10px;
+  filter: invert(93%) sepia(43%) saturate(1670%) hue-rotate(310deg) brightness(107%) contrast(103%);
+  width: 20px;
   color: #FFD369;
 }
