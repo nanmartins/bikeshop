@@ -28,11 +28,32 @@
 }
 
 .nav-link {
-  color: white;
+  display: inline-block;
+  position: relative;
+  color: #eeeeee;
 }
 
+.nav-link:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  color: #eeeeee;
+  background-color: #FFD369;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-link:hover:after {
+  color: #eeeeee;
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 .nav-link:hover {
-  color: #FFD369;
+  color: #eeeeee;
 }
 
 .navbar .navbar-collapse {
