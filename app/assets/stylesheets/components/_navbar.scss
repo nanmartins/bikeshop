@@ -97,9 +97,9 @@
 
 @media screen and (max-width: 575px) {
   .avatar {
-    position: fixed;
-    right: -300px;
-    bottom: -5px;
+    position: relative;
+    right: -495px;
+    top: -40px;
     margin: 0 10px 0 10px;
     width: 24px;
     color: #FFD369;
